@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+    // [
+    //   "@babel/preset-react",
+    //   {
+    //     "pragma": "Didact.createElement"
+    //   }
+    // ]
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime"
+  ]
+}
